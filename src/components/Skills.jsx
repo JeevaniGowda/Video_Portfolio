@@ -13,7 +13,7 @@ const Skills = () => {
     },
     {
       category: 'Database & Data',
-      skills: ['SQL', 'MySQL', 'SQLite', 'Pandas', 'NumPy'],
+      skills: ['SQL', 'Pandas', 'NumPy'],
     },
     {
       category: 'AI, ML & Tools',
@@ -25,7 +25,6 @@ const Skills = () => {
         'Prompt Engineering',
         'Git',
         'GitHub',
-        'Power BI',
         'Matplotlib',
         'Plotly',
         'Android Studio',
