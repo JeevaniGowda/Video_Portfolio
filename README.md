@@ -171,49 +171,78 @@ The Hero video uses a simple play/pause interaction.
 ▶️ Talking Video
        ↓
    Avatar Talks
-When the video is paused
+```
+
+### When the video is paused
+
+```text
 ⏸️ Video Paused
        ↓
 Standing Avatar Image
+```
 
-When Resume is clicked
+### When Resume is clicked
+
+```text
 ▶️ Resume
      ↓
 Talking Video Continues
+```
 
 This allows the visitor to control the talking avatar experience without interrupting the rest of the portfolio.
-✨ UI & Animation
+
+---
+
+# ✨ UI & Animation
+
 The project uses animations and transitions to make the interface more interactive.
+
 Implemented using:
+
 - Framer Motion
 - AOS (Animate On Scroll)
 - CSS transitions
 - Hover effects
 - Responsive layouts
 - Smooth section navigation
-📱 Responsive Design
+
+---
+
+# 📱 Responsive Design
+
 The portfolio is designed to work across different screen sizes.
+
 Supported layouts include:
+
 - Desktop
 - Laptop
 - Tablet
 - Mobile
+
 The UI adjusts the layout, typography, spacing, video, and components according to the screen size.
-🛠️ Technologies Used
-Technology	Purpose
-JavaScript	Main programming language
-React.js	Frontend framework
-Vite	Development and build tool
-HTML5	Page structure
-CSS3	Styling
-Tailwind CSS	UI styling and responsive design
-Framer Motion	UI animations
-AOS	Scroll animations
-Git	Version control
-GitHub	Source code management
 
+---
 
-📁 Project Structure
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| JavaScript | Main programming language |
+| React.js | Frontend framework |
+| Vite | Development and build tool |
+| HTML5 | Page structure |
+| CSS3 | Styling |
+| Tailwind CSS | UI styling and responsive design |
+| Framer Motion | UI animations |
+| AOS | Scroll animations |
+| Git | Version control |
+| GitHub | Source code management |
+
+---
+
+# 📁 Project Structure
+
+```text
 src/
 │
 ├── assets/
@@ -254,36 +283,77 @@ public/
     ├── learn-java-codechef.jpg
     ├── python-101-ibm.jpg
     └── web-development-udemy.jpg
+```
 
-⚙️ Setup Instructions
-✅ Step 1: Clone Repository
+---
+
+# ⚙️ Setup Instructions
+
+## ✅ Step 1: Clone Repository
+
+```bash
 git clone https://github.com/JeevaniGowda/Video_Portfolio.git
+```
 
-✅ Step 2: Navigate to Project
+---
+
+## ✅ Step 2: Navigate to Project
+
+```bash
 cd Video_Portfolio
+```
 
-✅ Step 3: Install Dependencies
+---
+
+## ✅ Step 3: Install Dependencies
+
+```bash
 npm install
+```
 
-✅ Step 4: Run Development Server
+---
+
+## ✅ Step 4: Run Development Server
+
+```bash
 npm run dev
+```
 
 Open the local URL displayed by Vite in your browser.
-📦 Build for Production
+
+---
+
+# 📦 Build for Production
+
 To create a production build:
+
+```bash
 npm run build
+```
 
 To preview the production build:
-npm run preview
 
-🧪 Development
+```bash
+npm run preview
+```
+
+---
+
+# 🧪 Development
+
 The project can be developed and tested using:
+
 - Visual Studio Code
 - Chrome / Edge
 - Vite Development Server
 - Git & GitHub
-📚 Concepts Used
+
+---
+
+# 📚 Concepts Used
+
 This project demonstrates practical implementation of:
+
 - React components
 - JavaScript
 - React state management
@@ -298,8 +368,13 @@ This project demonstrates practical implementation of:
 - Git version control
 - GitHub repository management
 - AI-generated video/avatar integration
-🔮 Future Enhancements
+
+---
+
+# 🔮 Future Enhancements
+
 Possible future improvements include:
+
 - More interactive AI avatar functionality
 - Additional project demonstrations
 - Advanced portfolio animations
@@ -307,7 +382,12 @@ Possible future improvements include:
 - Dynamic project management
 - Contact form backend integration
 - Deployment with a custom domain
-⭐ Conclusion
-This project demonstrates how a traditional developer portfolio can be enhanced using modern frontend technologies and AI-generated multimedia.
-The combination of React.js, JavaScript, Vite, animations, responsive UI, and an AI-generated talking avatar creates an interactive portfolio experience rather than a simple static webpage.
-The project can be further extended with additional interactive features, backend services, and dynamic content management.
+
+---
+
+# ⭐ Conclusion
+
+This project demonstrates how a traditional developer portfolio can be enhanced using **modern frontend technologies and AI-generated multimedia**.
+
+The combination of **React.js, JavaScript, Vite, animations, responsive UI, and an AI-generated talking avatar** creates an interactive portfolio experience rather than a simple static webpage.
+
